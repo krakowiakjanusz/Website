@@ -1,0 +1,208 @@
+body {
+    background-color: #282828;
+    padding: 50px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+p {
+    font-size: medium;
+}
+
+main {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+aside {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    margin: 10px;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+nav li {
+    border: 2px solid black;
+    background-color: brown;
+    list-style-type: none;
+}
+
+nav li a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: brown;
+}
+
+.active {
+    background-color: maroon;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 2px solid #F0F0F0
+}
+
+table tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+table tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+table tr:hover {
+    background-color: lightpink;
+}
+
+table th {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+#society {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    border: 2px solid maroon;
+    background-color: brown;
+    list-style-type: none;
+    float: left;
+    width: 15%;
+    padding: 16px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: maroon;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#home-carousel {
+    margin: auto;
+    width: 1000px;
+    height: 670px;
+}
+
+#welcometext {
+    text-align: center;
+}
+
+.onimagetext {
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: thick;
+    paint-order: stroke fill;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+#img-gallery {
+    padding-top: 10px;
+}
+
+#img-gallery .row {
+    margin-bottom: 10px;
+}
+
+.article {
+    text-align: center;
+}
+
+#hard-of-hearing {
+    width: 500px;
+}
+
+#eventcalendar {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.login {
+    text-align: right;
+}
+
+#img-gallery1:hover {
+    width: 800px;
+    transition: 0.3s;
+}
+
+.column {
+    color: white;
+}
+
+.shopform {
+    color: white;
+}
+
+.Penguin {
+    Width: 200px;
+    margin:auto;
+}
+
+.Penguin:hover {
+    width: 5000px;
+    transition: 60s;
+}
